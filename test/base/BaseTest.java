@@ -6,10 +6,10 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 
-import static com.vyshnivskyi.booking.infrastructure.models.ConstantInstances.WEB_DRIVER;
+import static com.vyshnivskyi.autoOne.infrastructure.models.ConstantInstances.WEB_DRIVER;
 
 public class BaseTest {
-	private static final String BOOKING_MAIN_PAGE = "https://www.booking.com";
+	private static final String AUTO_ONE_MAIN_PAGE = "https://www.auto1.com";
 
 	@BeforeSuite
 	protected void beforeSuite() {
@@ -20,7 +20,7 @@ public class BaseTest {
 	@AfterMethod
 	protected void afterMethod() {
 		WEB_DRIVER.manage().deleteAllCookies();
-		WEB_DRIVER.get(BOOKING_MAIN_PAGE);
+		WEB_DRIVER.get(AUTO_ONE_MAIN_PAGE);
 	}
 
 	@AfterTest

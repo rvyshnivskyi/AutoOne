@@ -1,4 +1,4 @@
-package com.vyshnivskyi.booking.infrastructure.waiter;
+package com.vyshnivskyi.autoOne.infrastructure.waiter;
 
 import java.util.Timer;
 import java.util.TimerTask;

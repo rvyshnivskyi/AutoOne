@@ -1,4 +1,4 @@
-package com.vyshnivskyi.booking.infrastructure.listeners;
+package com.vyshnivskyi.autoOne.infrastructure.listeners;
 
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;

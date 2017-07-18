@@ -1,6 +1,6 @@
-package com.vyshnivskyi.booking.infrastructure.executors;
+package com.vyshnivskyi.autoOne.infrastructure.executors;
 
-import com.vyshnivskyi.booking.infrastructure.models.ConstantInstances;
+import com.vyshnivskyi.autoOne.infrastructure.models.ConstantInstances;
 import org.apache.commons.lang.Validate;
 import org.openqa.selenium.*;
 
@@ -116,6 +116,10 @@ public class WebSelectorExecutor implements WebElement {
 			getGlobal().log(Level.WARNING, ex.getMessage());
 			return false;
 		}
+	}
+
+	public static void clickHiddenOrCoveredElement(WebElement element) {
+		((JavascriptExecutor)WEB_DRIVER).executeScript("arguments[0].click();", element);
 	}
 
 	@Override

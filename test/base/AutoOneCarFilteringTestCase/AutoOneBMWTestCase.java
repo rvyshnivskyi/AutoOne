@@ -1,4 +1,4 @@
-package base.HotelSearchTestCases;
+package base.AutoOneCarFilteringTestCase;
 
 import base.BaseTest;
 import com.vyshnivskyi.autoOne.helpers.AutoOneCarFilterTestHelper;

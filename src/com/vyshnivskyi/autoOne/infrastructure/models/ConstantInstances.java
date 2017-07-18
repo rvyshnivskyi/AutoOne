@@ -1,4 +1,4 @@
-package com.vyshnivskyi.booking.infrastructure.models;
+package com.vyshnivskyi.autoOne.infrastructure.models;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

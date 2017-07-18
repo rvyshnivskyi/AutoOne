@@ -1,4 +1,4 @@
-package com.vyshnivskyi.booking.infrastructure.waiter;
+package com.vyshnivskyi.autoOne.infrastructure.waiter;
 
 public class WhileDoException extends RuntimeException {
 	public WhileDoException(String message, Throwable cause) {
